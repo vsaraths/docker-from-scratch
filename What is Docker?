@@ -1,0 +1,25 @@
+Docker is an open Platform for the developing, Shipping, and Running application.
+Docker makes it easier to build, test, and run your apps by keeping them separate from the system they run on. This helps you move your code from your computer to servers quickly and with fewer problems. It’s like packing your app into a neat, portable box that works the same everywhere.
+
+The Docker platform
+Docker provides the ability to package and run an application in a loosely isolated environment called a container.
+Containerization means packaging an application into an single light weight container that can run on different environment
+Docker lets you package apps into containers—lightweight, isolated environments that run anywhere. You don’t need to worry about system differences; what runs on your machine will run the same on any other.
+
+🚀 Why Use Docker?
+Build once, run anywhere: Apps stay consistent across laptops, test servers, and the cloud.
+Faster delivery: Easily ship updates using containers in CI/CD pipelines.
+Scales easily: Run more workloads with less overhead.
+Less resource-hungry: Uses less memory than full virtual machines.
+Safe and isolated: Run multiple apps on the same system without conflict.
+
+Docker Architecture — In Simple Terms
+Docker works on a client-server model:
+
+Docker Client (docker) → What you use in the terminal. Sends commands.
+Docker Daemon (dockerd) → Does the real work: builds, runs, and manages containers.
+They talk using a REST API over local or remote connections.
+You can also use Docker Compose, a client tool for managing apps with multiple containers.
+
+Docker is written in the Go programming language 
+Docker uses a technology called namespaces to provide the isolated workspace called the container. When you run a container, Docker creates a set of namespaces for that container.
